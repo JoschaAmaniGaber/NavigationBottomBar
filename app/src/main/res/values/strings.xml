@@ -7,4 +7,8 @@
     <string name="cart_view">Cart View</string>
     <string name="home_view">Home View</string>
     <string name="amani_dunia_apps">Amani Dunia Apps</string>
+    <string name="softdrink">Soft Drinks</string>
+    <string name="hotdrink">Hot Drinks</string>
+    <string name="alk_ab_16">Alk ab 16</string>
+    <string name="alk_ab_18">Alk ab 18</string>
 </resources>
