@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Drink">
+    tools:context=".fragment.tabView.MainView_Drink">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardDrinkTextView"
@@ -23,6 +23,32 @@
             android:text="@string/drink_view"
             android:textAlignment="center"
             android:textSize="34sp" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/softdrink" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hotdrink" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alk_ab_16" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alk_ab_18" />
+        </com.google.android.material.tabs.TabLayout>
     </androidx.cardview.widget.CardView>
 
 </FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/softdrink_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.drinkTab.DrinkSoftDrink">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_softdrink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#00FFFFFF"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:id="@+id/softdrink_linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_SoftDrink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/softdrink"
+                android:textAlignment="center"
+                android:textSize="34sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/softdrink_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:elevation="8dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</FrameLayout>
