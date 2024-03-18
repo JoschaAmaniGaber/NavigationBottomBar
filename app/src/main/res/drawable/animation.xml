@@ -4,21 +4,21 @@
 
     <item
         android:drawable="@drawable/gradient1"
-        android:duration="1111"/>
+        android:duration="5555"/>
     <item
         android:drawable="@drawable/gradient2"
-        android:duration="1111"/>
+        android:duration="5555"/>
     <item
         android:drawable="@drawable/gradient3"
-        android:duration="1111"/>
+        android:duration="5555"/>
     <item
         android:drawable="@drawable/gradient4"
-        android:duration="1111"/>
+        android:duration="5555"/>
     <item
         android:drawable="@drawable/gradient5"
-        android:duration="1111"/>
+        android:duration="5555"/>
     <item
         android:drawable="@drawable/gradient6"
-        android:duration="1111"/>
+        android:duration="5555"/>
 
 </animation-list>

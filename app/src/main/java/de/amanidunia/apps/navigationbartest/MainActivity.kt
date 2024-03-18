@@ -20,9 +20,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        requestWindowFeature(Window.FEATURE_NO_TITLE)
+        //requestWindowFeature(Window.FEATURE_NO_TITLE)
         this.window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
-        supportActionBar?.hide()
+        //supportActionBar?.hide()
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -33,8 +33,8 @@ class MainActivity : AppCompatActivity() {
 
         val drawable : AnimationDrawable = homeView.background as AnimationDrawable
 
-        drawable.setEnterFadeDuration(2222)
-        drawable.setExitFadeDuration(2222)
+        drawable.setEnterFadeDuration(8888)
+        drawable.setExitFadeDuration(8888)
         drawable.start()
 
         binding.bottomNavigationView.setOnItemSelectedListener {
