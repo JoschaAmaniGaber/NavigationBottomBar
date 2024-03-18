@@ -5,11 +5,11 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 <item>
     <shape>
         <gradient
-            android:startColor="@color/purple_700"
-            android:endColor="@color/teal_700"
-            android:angle="135"
-            android:centerColor="@color/black"
-            android:gradientRadius="233dp"/>
+            android:angle="270"
+            android:startColor="@color/purple"
+            android:centerColor="@color/primary"
+            android:endColor="@color/teal"
+            />
     </shape>
 </item>
 

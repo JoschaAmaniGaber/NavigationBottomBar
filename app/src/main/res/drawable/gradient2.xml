@@ -6,10 +6,11 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 <item>
     <shape>
         <gradient
-            android:startColor="@color/purple_700"
-            android:endColor="@color/purple_200"
-            android:angle="315"
-            android:centerColor="@color/black"/>
+            android:angle="135"
+            android:startColor="@color/teal"
+            android:centerColor="@color/secodary"
+            android:endColor="@color/purple"
+            />
     </shape>
 </item>
 

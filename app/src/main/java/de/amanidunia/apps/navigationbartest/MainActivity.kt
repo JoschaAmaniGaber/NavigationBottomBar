@@ -33,8 +33,8 @@ class MainActivity : AppCompatActivity() {
 
         val drawable : AnimationDrawable = homeView.background as AnimationDrawable
 
-        drawable.setEnterFadeDuration(5500)
-        drawable.setExitFadeDuration(7000)
+        drawable.setEnterFadeDuration(2222)
+        drawable.setExitFadeDuration(2222)
         drawable.start()
 
         binding.bottomNavigationView.setOnItemSelectedListener {
