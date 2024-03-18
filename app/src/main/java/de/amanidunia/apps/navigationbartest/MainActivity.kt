@@ -2,16 +2,15 @@ package de.amanidunia.apps.navigationbartest
 
 import android.graphics.drawable.AnimationDrawable
 import android.os.Bundle
-import android.view.Window
 import android.view.WindowManager
-import android.view.inputmethod.InputBinding
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
 import de.amanidunia.apps.navigationbartest.databinding.ActivityMainBinding
+import de.amanidunia.apps.navigationbartest.fragment.tabView.MainView_Cart
+import de.amanidunia.apps.navigationbartest.fragment.tabView.MainView_Drink
+import de.amanidunia.apps.navigationbartest.fragment.tabView.MainView_Eat
+import de.amanidunia.apps.navigationbartest.fragment.tabView.MainView_Home
 
 class MainActivity : AppCompatActivity() {
 
@@ -27,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        replaceFragement(Home())
+        replaceFragement(MainView_Home())
 
         val homeView = findViewById<ConstraintLayout>(R.id.main)
 
@@ -41,10 +40,10 @@ class MainActivity : AppCompatActivity() {
 
             when (it.itemId) {
 
-                R.id.home -> replaceFragement(Home())
-                R.id.drink -> replaceFragement(Drink())
-                R.id.eat -> replaceFragement(Eat())
-                R.id.cart -> replaceFragement(Cart())
+                R.id.home -> replaceFragement(MainView_Home())
+                R.id.drink -> replaceFragement(MainView_Drink())
+                R.id.eat -> replaceFragement(MainView_Eat())
+                R.id.cart -> replaceFragement(MainView_Cart())
 
                 else -> {
 
